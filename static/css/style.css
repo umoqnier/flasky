@@ -1,12 +1,12 @@
 /* general style */
-body    { font: 18px/25px 'Palatino', 'Palatino Linotype', 'Georgia', serif;
+body    { font: 18px/25px 'NowRegular', 'Palatino', 'Palatino Linotype', 'Georgia', serif;
           margin: 0; padding: 0; }
 a       { /*color: #432165;*/ color: #234764; }
 a:hover { color: #3b185f; background: #f9f8fa; }
 
 /* headlines */
-h1, h2, h3, h4, h5, h6      { /*font-family: 'Vollkorn', 'Georgia', serif;*/
-                              font-family: 'Noticia Text', serif;
+h1, h2, h3, h4, h5, h6      {
+                              font-family: 'RubikRegular', serif;
                               font-weight: normal; color: #222; /*color: #AF3D04;*/ }
 h1 a, h2 a, h3 a, h4 a,
 h5 a, h6 a                  { text-decoration: none; }
@@ -25,8 +25,8 @@ h2                          { font-size: 36px; line-height: 40px; }
 div.container               { width: 740px; margin: 48px auto; padding: 0; }
 div.header                  { float: left; }
 div.navigation              { float: right; }
-div.header a, div.navigation a	{ text-decoration: none; 
-				  font-size: 22px; 
+div.header a, div.navigation a	{ text-decoration: none;
+				  font-size: 22px;
 				  padding: 10px;
 				}
 
@@ -36,7 +36,7 @@ div.separator               {border-bottom: 1px dotted #ddd; padding-bottom: 42p
 div.header, div.navigation  { height: 25px; margin-bottom: 42px; }
 div.navigation ul           { margin: 0; padding: 0; list-style: none; }
 div.navigation ul li        { display: inline; margin: 0 2px; padding: 0;}
-div.body                    { clear: both; font-size: 1.1em;}
+div.body                    { clear: both; font-size: 1.2em;}
 div.footer                  { border-top: 1px dotted #ddd; padding-top: 9px;
                               margin-top: 42px; font-size: 16px; color: #888;
                               text-align: center; }
@@ -128,9 +128,9 @@ div.blog-epilogue a         {text-decoration: none;
                              padding-left: 30px; padding-right: 30px;}
 
 /* about img */
-img.align-left { 
-    float: left; 
-    margin: 20px; 
+img.align-left {
+    float: left;
+    margin: 20px;
 }
 
 /* github gists */
