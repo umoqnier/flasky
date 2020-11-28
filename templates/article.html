@@ -5,9 +5,11 @@
 {% block content %}
     <h1 class="title"> {{ article.title }}</h1>
     <p class=date> {{ article.locale_date }} </p>
+    {% if article.modified %} <p class="date muted small">Última modificación el: {{ article.modified|strftime('%d/%m/%Y')  }}</p>{% endif %}
     {{ article.content }}
 
     {% include "twitter.html" %}
+
     {% if article.tags %}
     <p class=tags>Tags: (
       {% for tag in article.tags %}
